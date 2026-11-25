@@ -14,4 +14,4 @@ Runs on Node 22.18+ (`program/v1`) and deterministically writes the two-line ent
 node main.ts
 ```
 
-Set `OUTPUT_DIR` to test writing to an alternate local directory.
+Set `MAKEFUN_OUTPUT_DIR` to write to an alternate local output directory.
