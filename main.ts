@@ -2,8 +2,8 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const LINES: readonly [string, string] = [
-  'Don\'t call Uncle Carl\'s power of attorney "just routine" when Grandma hesitates at her kitchen table after Grandpa\'s funeral.',
-  "She signs on your word, and within six months he drains her savings, sells that house, and leaves her in a county nursing home.",
+  'Don\'t snap "call me when you\'re sober" when Dad\'s words slur on the phone Thursday night.',
+  "It's a stroke, not whiskey, and hanging up leaves him on his kitchen floor until you find him dead Sunday.",
 ];
 
 const ENTRY = `${LINES[0]}\n${LINES[1]}`;
